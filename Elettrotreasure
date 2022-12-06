@@ -1,0 +1,84 @@
+print('''
+
+
+
+                       __.------.                          
+                      (__  ___   )                         
+                        .)e  )\ /                          
+                       /_.------                           
+                       _/_    _/                           
+                   __.'  / '   `-.__                       
+                  / <.--'           `\                     
+                 /   \   \c           |                    
+                /    /    )  GoT  x    \                   
+                |   /\    |c     / \.-  \                  
+                \__/  )  /(     (   \   <>'\               
+                     / _/ _\-    `-. \/_|_ /<>             
+                    / /--/,-\     _ \     <>.`.            
+                    \/`--\_._) - /   `-/\    `.\           
+                     /        `.     /   )     `\          
+                     \      \   \___/----'                 
+                     |      /    `(                        
+ ___________         \    ./\_   _ \                       
+   ______________    /     |  )    '|                      
+ __________________ |     /   \     \     ___________a:f   
+                   /     |     |____.)                     
+                  /      \  a88a\___/88888a.               
+                 \_      :)8888888888888888888a.           
+                /` `-----'  `Y88888888888888888            
+                \____|         `88888888888P'              
+                                                           
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+promotion = input("Your boss asks you if you want to be a store manager. Do you accept, or decline? ")
+p_ = promotion.lower()
+
+if p_ == "accept":
+    print("Congrats! You'll be paid only €200 per month more. And you'll be submerged by a lot of responsabilities, too.")
+    rob = input("You are not satified with your salary. Do you 'give' yourself something, or do you maintain your dignity? ")
+    r_ = rob.lower()
+    if r_ == "give":
+        print("You, filthy scum! Everybody will hates you, but who knows...")
+        manette = input("Oh guess what, Jordan Belfort, you get caught! I hope that you will resign... (Yes, No or Maybe) ")
+        m_ = manette.lower()
+        if m_ == "no":
+            print("You are not a little, but a HUGE piece of shit. However, it seems that the company you work for loves you. You don't get fired and you don't get sued. WELL DONE BOY, YOU FOUND THE TREASURE! YOU WIN!")
+            print('''
+
+      .   ,      .
+          L\  o    .-""-.
+           |\_    / (--> \
+       o  .\ \'--.)_>_=/_(   __
+     .      \ )`-._/|_,(    (==)
+         o   |_\ (_   ( \  /|~~|
+       o . _.' `\ ) \_/\ \/ |  |
+      _ _.','\ _/\   (__'._/|()|
+     |=/=/====\======/==|  /`  `\
+     \ ' . o . '-..-' o / /      \
+      `'-.__  o'  __.-'` ;  _/\_  ;
+            `'..'`       ||`    `||
+              ||         ||PARTY!||
+              ||         ||      ||
+          jgs ||         | \____/ |
+           _.'  '._      |        |
+          <        >     \_.-""-._/
+           `""""""`       `""""""`
+
+
+''')
+        elif m_ =="yes":
+            print("You are still an asshole. You lose.")
+        elif m_ == "maybe":
+            print("Maybe what?! You need a little more time to think about it?! You lose.")
+        else:
+            print("You lose.")
+    else:
+        print("Well, DIGNITY WON'T MAKE YOU EAT OR FUCK CHICKS. You looser.")
+else:
+    print("You remain just a simple seller. You lose.")
+
